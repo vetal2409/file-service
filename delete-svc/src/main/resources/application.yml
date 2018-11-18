@@ -1,0 +1,15 @@
+server.port: 8082
+storage:
+  deleteCommandQueue: ~
+  deletePollTimeout: 1_000
+  indexName: ~
+  bucketName: ~
+aws:
+  s3.region: ~
+  sqs.region: ~
+  accessKeyId: ~
+  secretKey: ~
+elasticsearch:
+  url: ~
+  connectTimeout: 1_000
+  socketTimeout: 30_000

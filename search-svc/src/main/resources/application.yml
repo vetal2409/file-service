@@ -1,0 +1,14 @@
+server.port: 8083
+storage:
+  indexName: ~
+  bucketName: ~
+  downloadUrlExpireTimeout: 300_000
+aws:
+  s3.region: ~
+  sqs.region: ~
+  accessKeyId: ~
+  secretKey: ~
+elasticsearch:
+  url: ~
+  connectTimeout: 1_000
+  socketTimeout: 30_000

@@ -1,0 +1,12 @@
+server.port: 8081
+storage:
+  indexName: ~
+  bucketName: ~
+  downloadUrlExpireTimeout: 300_000
+  auditEventQueue: ~
+  auditPollTimeout: 1_000
+aws:
+  s3.region: ~
+  sqs.region: ~
+elasticsearch:
+  url: ~

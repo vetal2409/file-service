@@ -1,0 +1,3 @@
+publish_svc: java -jar -Xms64m -Xmx64m -Djava.security.egd=file:/dev/./urandom -Dspring.config.location=classpath:/application.yml,publish-svc.yml publish-svc-1.0.jar
+search_svc: java -jar -Xms64m -Xmx64m -Djava.security.egd=file:/dev/./urandom -Dspring.config.location=classpath:/application.yml,search-svc.yml search-svc-1.0.jar
+delete_svc: java -jar -Xms64m -Xmx64m -Djava.security.egd=file:/dev/./urandom -Dspring.config.location=classpath:/application.yml,delete-svc.yml delete-svc-1.0.jar

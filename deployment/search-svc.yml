@@ -1,0 +1,12 @@
+server.port: "${PORT}"
+storage:
+  indexName: documents-metadata
+  bucketName: sigma-sample-1345utyurytteeyrt
+  downloadUrlExpireTimeout: 300_000
+aws:
+  s3.region: us-east-1
+  sqs.region: us-east-1
+elasticsearch:
+  url: https://vpc-sigma-sample-kyiv-gg6zweaumyjmdxbu4dzzyepxci.us-east-1.es.amazonaws.com
+  connectTimeout: 1_000
+  socketTimeout: 30_000
